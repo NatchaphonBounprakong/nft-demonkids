@@ -1,0 +1,47 @@
+<div style="padding-top: 83px;min-height: calc(100vh - 83px);display: flex;justify-content: center; align-items: center;">
+  <div class="container">
+    <div class="row">
+      <div class="col-8" style="font-size: 36px;justify-content: center;display: flex;align-items: center;padding: 0 75px;">
+        Demon Kids is a collection of 666 randomly generated characters,
+        each of which is unique. In a world filled of chaos and inequality,
+        the demons who live in the underworld begin to play a part.
+        Everyone in this world is equal. Demon Kid is your avatar which representative you,
+        and they are ready for you all to summon them up.It's Demon's Time!
+      </div>
+      <div class="col-4">
+        <div class="navigation-wrapper">
+          <div class="keen-slider keen-slider--vertical" #sliderRef>
+            <div class="keen-slider__slide">
+              <img src="../../assets/demonkids/image_6483441.JPG" alt="" style="width: 100%;height: auto;">
+            </div>
+            <div class="keen-slider__slide ">
+              <img src="../../assets/demonkids/unnamed (1).jpg" alt="" style="width: 100%;height: auto;">
+            </div>
+            <div class="keen-slider__slide ">
+              <img src="../../assets/demonkids/unnamed (2).jpg" alt="" style="width: 100%;height: auto;">
+            </div>
+            <div class="keen-slider__slide ">
+              <img src="../../assets/demonkids/unnamed (3).jpg" alt="" style="width: 100%;height: auto;">
+            </div>
+            <div class="keen-slider__slide ">
+              <img src="../../assets/demonkids/unnamed (4).jpg" alt="" style="width: 100%;height: auto;">
+            </div>
+            <div class="keen-slider__slide ">
+              <img src="../../assets/demonkids/unnamed (5).jpg" alt="" style="width: 100%;height: auto;">
+            </div>
+            <div class="keen-slider__slide ">
+              <img src="../../assets/demonkids/unnamed.jpg" alt="" style="width: 100%;height: auto;">
+            </div>
+          </div>
+          <div class="dots">
+            <button
+              (click)="slider.moveToIdx(i)"
+              *ngFor="let slide of dotHelper; let i = index"
+              [class]="'dot ' + (i === currentSlide ? 'active' : '')"></button>
+          </div>
+        </div>
+        <!-- <img style="height: auto; width: 100%;max-width: 500px" src="../../assets/demonkids/image_6483441.JPG" alt=""> -->
+      </div>
+    </div>
+  </div>
+</div>
