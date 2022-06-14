@@ -1,11 +1,18 @@
 <div class="wrapper">
   <div class="container-fluid">
-    <div class="row">
-      <div class="col-6 flex-center" style="height:100vh">
-        <a [routerLink]="['/toughlions']" style="color:black;text-decoration: underline;cursor: pointer;">click Here</a>
+    <div class="row" style="min-height:100vh;padding: 10px 0;    ">
+      <div class="col-md-6 flex-center img-wrapper">
+        <div class="flex-center" style="flex-direction: column;">
+          <img src="assets/Layer_1.png" [routerLink]="['/toughlions']" style="width: 100%;height:auto " alt="">
+          <div style="font-size: 52px;">TOUGH LIONS</div>
+        </div>
+
       </div>
-      <div class="col-6 flex-center" style="height:100vh">
-        <a [routerLink]="['/demonkids']" style="color:black;text-decoration: underline;cursor: pointer;">click Here</a>
+      <div class="col-md-6 flex-center img-wrapper">
+        <div class="flex-center" style="flex-direction: column;">
+          <img src="assets/Untitled_Artwork.png" [routerLink]="['/demonkids']" style="width: 100%;height:auto " alt="">
+          <div style="font-size: 52px;">Demon Kids</div>
+        </div>
       </div>
     </div>
   </div>

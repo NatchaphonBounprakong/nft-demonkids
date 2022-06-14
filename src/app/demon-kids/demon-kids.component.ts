@@ -7,9 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DemonKidsComponent implements OnInit {
 
+  showMenu = false;
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  openMenu() {
+    this.showMenu = !this.showMenu;
+  }
+  clickOut() {
+    this.showMenu = false;
   }
 
 }

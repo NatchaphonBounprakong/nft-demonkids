@@ -13,6 +13,7 @@ import { HomeComponent } from './home/home.component';
 import { LionAboutComponent } from './lion-about/lion-about.component';
 import { LionRoadmapComponent } from './lion-roadmap/lion-roadmap.component';
 import { LionHypehogsComponent } from './lion-hypehogs/lion-hypehogs.component';
+import { LionStartComponent } from './lion-start/lion-start.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { LionHypehogsComponent } from './lion-hypehogs/lion-hypehogs.component';
     HomeComponent,
     LionAboutComponent,
     LionRoadmapComponent,
-    LionHypehogsComponent
+    LionHypehogsComponent,
+    LionStartComponent
   ],
   imports: [
     BrowserModule,

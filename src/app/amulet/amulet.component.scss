@@ -8,6 +8,22 @@ img {
   justify-content: center;
 }
 
+@media only screen and (max-width: 768px) {
+  .mob-margin-top {
+    margin-top: 50px;
+  }
+
+  .mob-reduce-margin {
+    padding: 20px 20px !important;
+  }
+
+
+  .row {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
 .dot {
   border: none;
   width: 10px;

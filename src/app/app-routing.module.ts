@@ -9,6 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { LionAboutComponent } from './lion-about/lion-about.component';
 import { LionHypehogsComponent } from './lion-hypehogs/lion-hypehogs.component';
 import { LionRoadmapComponent } from './lion-roadmap/lion-roadmap.component';
+import { LionStartComponent } from './lion-start/lion-start.component';
 import { StartComponent } from './start/start.component';
 import { ToughLionsComponent } from './tough-lions/tough-lions.component';
 
@@ -48,6 +49,10 @@ const routes: Routes = [
     path: 'toughlions',
     component: ToughLionsComponent,
     children: [
+      {
+        path: '',
+        component: LionStartComponent,
+      },
       {
         path: 'about',
         component: LionAboutComponent,
